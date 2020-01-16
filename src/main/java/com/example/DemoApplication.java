@@ -7,13 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 * Classe principal de l'application sample spring boot.
 **/
 @SpringBootApplication
-public final class DemoApplication {
+public class DemoApplication {
 
         /**
         * Constructeur privé.
         * lève une exception si instanciation de cette classe.
         **/
-        private DemoApplication() {
+        public DemoApplication() {
         }
 
         /**
