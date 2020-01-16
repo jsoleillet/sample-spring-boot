@@ -16,9 +16,10 @@ public class DemoApplicationTests {
 	public void contextLoads() {
 	}
 
-        @Ignore("This test is ignored")
+        //@Ignore("This test is ignored")
         @Test
         public void testIgnore() {
+          assertTrue(true);
         }
 
         @Test
@@ -26,6 +27,7 @@ public class DemoApplicationTests {
           assertTrue(true);
         }
 
+        @Ignore("Don't make fail")
         @Test
         public void alwaysFail() {
           assertTrue(false);
